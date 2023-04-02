@@ -334,9 +334,9 @@ img {
   border-radius: 4px;
   width: 168px;
   height: 88px;
-display: flex;
-justify-content: center;
-align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* -----FOOTER----- */
@@ -383,6 +383,30 @@ align-items: center;
   letter-spacing: 0.02em;
   color: #f4f4fd;
   width: 264px;
+}
+
+.footer-soc-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.footer-soc-lisl {
+}
+
+.footer-soc-item {
+}
+.footer-soc-link {
+}
+.container-social {
+display: block;
+
+}
+.container-footer-top{
+  display: flex;
+  
+
 }
 
 /* -----MAIN-NAV----- */
