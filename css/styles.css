@@ -298,11 +298,45 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 .team-soc-icon {
   fill: #f4f4fd;
+}
 
+/* -----COMPANI----- */
+
+.compani {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.container {
+}
+.compani-top-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin: 0 auto;
+  color: #2e2f42;
+  margin-bottom: 72px;
+}
+.compani-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.compani-logo {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 168px;
+  height: 88px;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 /* -----FOOTER----- */
