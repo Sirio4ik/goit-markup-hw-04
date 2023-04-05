@@ -46,6 +46,8 @@ img {
 .header {
   padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -136,6 +138,9 @@ img {
   background-size: cover;
   padding-top: 188px;
   padding-bottom: 188px;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .container-hero {
 }
@@ -309,10 +314,15 @@ img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: #404bbf;
+  background-color: #4d5ae5;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.team-soc-link:hover,
+.team-soc-link:focus {
+  background: #404bbf;
 }
 .team-soc-icon {
   fill: #f4f4fd;
@@ -325,6 +335,18 @@ img {
   padding-bottom: 120px;
 }
 .container {
+}
+
+.compani-icon {
+  fill: #8e8f99;
+}
+
+.compani-icon:hover,
+.compani-icon:focus {
+  fill: #404bbf;
+}
+.comp-icon-one {
+  fill: #404bbf;
 }
 .compani-top-text {
   font-family: "Roboto";
@@ -345,13 +367,23 @@ img {
   gap: 24px;
 }
 .compani-logo {
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
   width: 168px;
   height: 88px;
+}
+
+.compani-link {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.compani-link:hover,
+.compani-link:focus {
+  border: 1px solid #404bbf;
 }
 
 /* -----FOOTER----- */
@@ -433,6 +465,12 @@ img {
   align-items: center;
   justify-content: center;
 }
+
+.footer-soc-link:hover,
+.footer-soc-link:focus{
+  background: #31D0AA;
+}
+
 .container-social {
   padding-left: 0;
   margin-left: 0;
